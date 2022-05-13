@@ -26,14 +26,14 @@ namespace SodukuEaminer
                     k++;
                 }
                 // showing the matrix
-                for(int i = 0; i < 9; i++)
-                {
-                    for(int j = 0; j < 9; j++)
-                    {
-                        Console.Write(sodoku[i, j]);
-                    }
-                    Console.WriteLine("");
-                }
+//                 for(int i = 0; i < 9; i++)
+//                 {
+//                     for(int j = 0; j < 9; j++)
+//                     {
+//                         Console.Write(sodoku[i, j]);
+//                     }
+//                     Console.WriteLine("");
+//                 }
 
                 for (int i = 0; i < 9; i++)
                 {
