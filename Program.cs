@@ -71,8 +71,12 @@ namespace SodukuEaminer
 
 
             {
-                for(int j = c*3 ; j < c* +3; j++)
+                for(int j = c*3 ; j < c*3 +3; j++)
                 {
+                    if(row==i&& column==j)
+                    {
+                        continue;
+                    }
                     if (A[row, column] == A[i, j] && i != row && j != column)
                     {
                         return true;
